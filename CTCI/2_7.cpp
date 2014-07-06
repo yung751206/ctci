@@ -1,4 +1,4 @@
-#include<iostream>
+/*#include<iostream>
 #include<string>
 using namespace std;
 
@@ -35,4 +35,4 @@ int main(){
 	root->next->next->next->next = new node;
 	root->next->next->next->next->data ='a';
 	cout<<detectPalindrome(root)<<endl;
-}
+}*/
