@@ -11,13 +11,16 @@
 using namespace std;
 int main(int argc, const char * argv[])
 {
-    minStack stack;
-    for(int i=0;i<50;i++){
-        stack.push(i);
-    }
-    for(int i=0;i<1;i++){
-        stack.pop();
-    }
+    stackMin stack;
+    stack.push(5);
+    stack.push(6);
+    stack.push(3);
+    stack.push(7);
+    cout<<stack.min()<<endl;
+    stack.pop();
+    stack.pop();
+    cout<<stack.min()<<endl;
+    stack.pop();
     cout<<stack.min()<<endl;
 }
 
