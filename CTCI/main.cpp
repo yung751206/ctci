@@ -1,4 +1,4 @@
-/*//
+//
 //  main.cpp
 //  CTCI
 //
@@ -7,12 +7,17 @@
 //
 
 #include <iostream>
-
+#include "3_2.h"
+using namespace std;
 int main(int argc, const char * argv[])
 {
-
-    // insert code here...
-    std::cout << "Hello, World!\n";
-    return 0;
-}*/
+    minStack stack;
+    for(int i=0;i<50;i++){
+        stack.push(i);
+    }
+    for(int i=0;i<1;i++){
+        stack.pop();
+    }
+    cout<<stack.min()<<endl;
+}
 

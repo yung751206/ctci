@@ -64,17 +64,6 @@ int threeStacks::top(int index){
     }
 }
 
-int main(){
-    threeStacks test;
-    test.push(1,1);
-    test.push(2,2);
-    test.push(3,3);
-    for(int i =0;i<3;i++){
-        cout<<test.top(i+1);
-        cout<<endl;
- //       test.pop(i+1);
-    }
-}
 
 
 
