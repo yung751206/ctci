@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>5C28A66F-E444-4A11-8136-4D0DA41645F0</string>
+	<key>IDESourceControlProjectName</key>
+	<string>CTCI</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>48636640-4B36-4E69-A7A8-F361F68DFA71</key>
+		<string>https://github.com/yung751206/ctci</string>
+		<key>8C295920-33D1-4D7A-B1BD-DFE1DBAE4471</key>
+		<string>https://github.com/yung751206/ctci</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>CTCI.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>48636640-4B36-4E69-A7A8-F361F68DFA71</key>
+		<string>../..</string>
+		<key>8C295920-33D1-4D7A-B1BD-DFE1DBAE4471</key>
+		<string>../../CTCI</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/yung751206/ctci</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>48636640-4B36-4E69-A7A8-F361F68DFA71</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>48636640-4B36-4E69-A7A8-F361F68DFA71</string>
+			<key>IDESourceControlWCCName</key>
+			<string>CTCI</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>8C295920-33D1-4D7A-B1BD-DFE1DBAE4471</string>
+			<key>IDESourceControlWCCName</key>
+			<string>CTCI</string>
+		</dict>
+	</array>
+</dict>
+</plist>

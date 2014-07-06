@@ -95,28 +95,44 @@
 		B728F83B1959BB4400AA773A /* CTCI */ = {
 			isa = PBXGroup;
 			children = (
-				B79516DF195EFDDA0033E79F /* 1_7.cpp */,
-				B79516DD195EFDCB0033E79F /* 1_8.cpp */,
-				B728F8451959BB7F00AA773A /* 1_1.cpp */,
-				B728F8461959BB7F00AA773A /* 1_2.cpp */,
-				B73C9C7819619124001C4F5F /* 2_2.cpp */,
-				B73C9C7919619124001C4F5F /* 2_4.cpp */,
-				B73C9C7619619116001C4F5F /* 2_1.cpp */,
+				B731419D1968E4B9005CF4E4 /* Part1 */,
+				B731419E1968E4CB005CF4E4 /* Part2 */,
+				B728F83C1959BB4400AA773A /* main.cpp */,
+				B728F83E1959BB4400AA773A /* CTCI.1 */,
+				B70FC656195F957100C17EC6 /* linkedlist.h */,
+				B70FC657195F963B00C17EC6 /* linkedlist.cpp */,
+			);
+			path = CTCI;
+			sourceTree = "<group>";
+		};
+		B731419D1968E4B9005CF4E4 /* Part1 */ = {
+			isa = PBXGroup;
+			children = (
 				B728F8471959BB7F00AA773A /* 1_3.cpp */,
 				B728F8481959BB7F00AA773A /* 1_4.cpp */,
 				B772EFA7195AFB0600FC2489 /* 1_5.cpp */,
 				B772EFA9195AFB3F00FC2489 /* 1_6.cpp */,
-				B728F83C1959BB4400AA773A /* main.cpp */,
-				B728F83E1959BB4400AA773A /* CTCI.1 */,
+				B79516DF195EFDDA0033E79F /* 1_7.cpp */,
+				B79516DD195EFDCB0033E79F /* 1_8.cpp */,
+				B728F8451959BB7F00AA773A /* 1_1.cpp */,
+				B728F8461959BB7F00AA773A /* 1_2.cpp */,
+			);
+			name = Part1;
+			sourceTree = "<group>";
+		};
+		B731419E1968E4CB005CF4E4 /* Part2 */ = {
+			isa = PBXGroup;
+			children = (
+				B73C9C7819619124001C4F5F /* 2_2.cpp */,
 				B79516E4195EFE7B0033E79F /* 2_3.cpp */,
 				B763397919682EF300E80F93 /* 2_5_2.cpp */,
 				B763397A19682EF300E80F93 /* 2_5.cpp */,
 				B763397B19682EF300E80F93 /* 2_6.cpp */,
 				B763397C19682EF300E80F93 /* 2_7.cpp */,
-				B70FC656195F957100C17EC6 /* linkedlist.h */,
-				B70FC657195F963B00C17EC6 /* linkedlist.cpp */,
+				B73C9C7919619124001C4F5F /* 2_4.cpp */,
+				B73C9C7619619116001C4F5F /* 2_1.cpp */,
 			);
-			path = CTCI;
+			name = Part2;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
