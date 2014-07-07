@@ -1,4 +1,4 @@
-//
+/*//
 //  3_2.cpp
 //  CTCI
 //
@@ -72,7 +72,7 @@ void stackMin::push(int data){
         Stack::push(data);
     }
 }
-
+*/
 
 
 

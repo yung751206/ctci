@@ -1,5 +1,5 @@
 //
-//  3_1.cpp
+/*//  3_1.cpp
 //  CTCI
 //
 //  Created by Edison on 7/6/14.
@@ -62,7 +62,7 @@ int threeStacks::top(int index){
     else{
         return m_array[m_indexThree-1];
     }
-}
+}*/
 
 
 

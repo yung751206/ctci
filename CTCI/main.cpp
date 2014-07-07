@@ -7,20 +7,18 @@
 //
 
 #include <iostream>
-#include "3_2.h"
+#include "3_3.h"
 using namespace std;
 int main(int argc, const char * argv[])
 {
-    stackMin stack;
-    stack.push(5);
-    stack.push(6);
-    stack.push(3);
-    stack.push(7);
-    cout<<stack.min()<<endl;
-    stack.pop();
-    stack.pop();
-    cout<<stack.min()<<endl;
-    stack.pop();
-    cout<<stack.min()<<endl;
+    node *root;
+    root = new node;
+    root->next = nullptr;
+    for(int i=0;i<50;i++){
+        push(i,root);
+    }
+    for(int i=0;i<50;i++){
+        pop(root);
+    }
 }
 

@@ -60,6 +60,44 @@ int Stack::size(){
 
 
 
+void push(int data,node* root){
+	node* temp = root;
+	while(temp->next != nullptr){
+		temp = temp->next;
+	}
+	if( temp->data.size() < 10){
+		temp->data.push(data);
+	}
+	else{
+		temp->next = new node;
+		temp = temp->next;
+		temp->next = nullptr;
+		temp->data.push(data);
+	}
+}
+
+void pop(node* root){
+    node* temp = root;
+	while(temp->next != nullptr){
+		temp = temp->next;
+	}
+    if(temp->data.size()!=0){
+        cout<<temp->data.top()<<endl;
+        temp->data.pop();
+    }
+	else{
+        node* temp2 = root;
+        while(temp2->next != temp){
+            temp2 = temp2->next;
+        }
+        delete temp2->next;
+        temp2->next = nullptr;
+        cout<<temp2->data.top()<<endl;
+        temp2->data.pop();
+	}
+}
+
+
 
 
 

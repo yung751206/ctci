@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B70FC658195F963B00C17EC6 /* linkedlist.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B70FC657195F963B00C17EC6 /* linkedlist.cpp */; };
+		B70A33EC196ABB9C0048E0F4 /* 3_3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B70A33E9196ABB9C0048E0F4 /* 3_3.cpp */; };
 		B728F83D1959BB4400AA773A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B728F83C1959BB4400AA773A /* main.cpp */; };
 		B728F83F1959BB4400AA773A /* CTCI.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = B728F83E1959BB4400AA773A /* CTCI.1 */; };
 		B728F8491959BB7F00AA773A /* 1_1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B728F8451959BB7F00AA773A /* 1_1.cpp */; };
@@ -44,8 +44,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		B70FC656195F957100C17EC6 /* linkedlist.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = linkedlist.h; sourceTree = "<group>"; };
-		B70FC657195F963B00C17EC6 /* linkedlist.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = linkedlist.cpp; sourceTree = "<group>"; };
+		B70A33E9196ABB9C0048E0F4 /* 3_3.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 3_3.cpp; sourceTree = "<group>"; };
+		B70A33EA196ABB9C0048E0F4 /* 3_3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = 3_3.h; sourceTree = "<group>"; };
 		B728F8391959BB4400AA773A /* CTCI */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CTCI; sourceTree = BUILT_PRODUCTS_DIR; };
 		B728F83C1959BB4400AA773A /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		B728F83E1959BB4400AA773A /* CTCI.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = CTCI.1; sourceTree = "<group>"; };
@@ -105,12 +105,12 @@
 				B731419E1968E4CB005CF4E4 /* Part2 */,
 				B728F83C1959BB4400AA773A /* main.cpp */,
 				B728F83E1959BB4400AA773A /* CTCI.1 */,
-				B70FC656195F957100C17EC6 /* linkedlist.h */,
 				B781C9AD1968E6D600698C52 /* 3_1.cpp */,
 				B781C9AE1968E6D600698C52 /* 3_1.h */,
+				B70A33E9196ABB9C0048E0F4 /* 3_3.cpp */,
+				B70A33EA196ABB9C0048E0F4 /* 3_3.h */,
 				B781C9B01968F62200698C52 /* 3_2.cpp */,
 				B781C9B11968F62200698C52 /* 3_2.h */,
-				B70FC657195F963B00C17EC6 /* linkedlist.cpp */,
 			);
 			path = CTCI;
 			sourceTree = "<group>";
@@ -208,8 +208,8 @@
 				B79516E5195EFE7B0033E79F /* 2_3.cpp in Sources */,
 				B73C9C7A19619124001C4F5F /* 2_2.cpp in Sources */,
 				B772EFAB195AFB3F00FC2489 /* 1_6.cpp in Sources */,
+				B70A33EC196ABB9C0048E0F4 /* 3_3.cpp in Sources */,
 				B73C9C7719619116001C4F5F /* 2_1.cpp in Sources */,
-				B70FC658195F963B00C17EC6 /* linkedlist.cpp in Sources */,
 				B772EFA8195AFB0600FC2489 /* 1_5.cpp in Sources */,
 				B79516E0195EFDDA0033E79F /* 1_7.cpp in Sources */,
 				B781C9B21968F62200698C52 /* 3_2.cpp in Sources */,

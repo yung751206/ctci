@@ -6,8 +6,8 @@
 //  Copyright (c) 2014 Edison. All rights reserved.
 //
 
-#ifndef __CTCI____2__
-#define __CTCI____2__
+#ifndef __CTCI____3__
+#define __CTCI____3__
 
 class Stack{
 public:
@@ -22,5 +22,13 @@ private:
     int *m_array;
     int limit;
 };
+
+struct node{
+	Stack data;
+	node *next;
+};
+
+void push(int data,node* root);
+void pop(node* root);
 #endif /* defined(__CTCI____2__) */
 
