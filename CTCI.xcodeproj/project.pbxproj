@@ -28,6 +28,7 @@
 		B79516DE195EFDCB0033E79F /* 1_8.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B79516DD195EFDCB0033E79F /* 1_8.cpp */; };
 		B79516E0195EFDDA0033E79F /* 1_7.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B79516DF195EFDDA0033E79F /* 1_7.cpp */; };
 		B79516E5195EFE7B0033E79F /* 2_3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B79516E4195EFE7B0033E79F /* 2_3.cpp */; };
+		B7959262196C1D5000AE6B13 /* 3_4.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B7959260196C1D5000AE6B13 /* 3_4.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -69,6 +70,8 @@
 		B79516DD195EFDCB0033E79F /* 1_8.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 1_8.cpp; sourceTree = "<group>"; };
 		B79516DF195EFDDA0033E79F /* 1_7.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 1_7.cpp; sourceTree = "<group>"; };
 		B79516E4195EFE7B0033E79F /* 2_3.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 2_3.cpp; sourceTree = "<group>"; };
+		B7959260196C1D5000AE6B13 /* 3_4.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 3_4.cpp; sourceTree = "<group>"; };
+		B7959261196C1D5000AE6B13 /* 3_4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = 3_4.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +107,8 @@
 				B731419D1968E4B9005CF4E4 /* Part1 */,
 				B731419E1968E4CB005CF4E4 /* Part2 */,
 				B728F83C1959BB4400AA773A /* main.cpp */,
+				B7959260196C1D5000AE6B13 /* 3_4.cpp */,
+				B7959261196C1D5000AE6B13 /* 3_4.h */,
 				B728F83E1959BB4400AA773A /* CTCI.1 */,
 				B781C9AD1968E6D600698C52 /* 3_1.cpp */,
 				B781C9AE1968E6D600698C52 /* 3_1.h */,
@@ -214,6 +219,7 @@
 				B79516E0195EFDDA0033E79F /* 1_7.cpp in Sources */,
 				B781C9B21968F62200698C52 /* 3_2.cpp in Sources */,
 				B728F8491959BB7F00AA773A /* 1_1.cpp in Sources */,
+				B7959262196C1D5000AE6B13 /* 3_4.cpp in Sources */,
 				B763397E19682EF300E80F93 /* 2_5.cpp in Sources */,
 				B728F84B1959BB7F00AA773A /* 1_3.cpp in Sources */,
 			);

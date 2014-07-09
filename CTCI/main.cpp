@@ -7,18 +7,13 @@
 //
 
 #include <iostream>
-#include "3_3.h"
+#include <stack>
+#include "3_4.h"
 using namespace std;
+
 int main(int argc, const char * argv[])
 {
-    node *root;
-    root = new node;
-    root->next = nullptr;
-    for(int i=0;i<50;i++){
-        push(i,root);
-    }
-    for(int i=0;i<50;i++){
-        pop(root);
-    }
+    tower t(3);
+	t.printout();
 }
 
