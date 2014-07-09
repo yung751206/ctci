@@ -21,125 +21,78 @@ tower::tower(int disk){
     }
 }
 
-void tower::move(int from, int to){
-	node temp = mStack[from].top();
-	mStack[from].pop();
-	temp.preTower = from;
-	mStack[to].push(temp);
-	if ((to != 0) && !mStack[0].empty()){
-		mStack[0].top().preTower = -1;
+bool tower::move(int from, int to){
+    if (!mStack[from].empty() && !mStack[to].empty() ){
+        if(mStack[from].top().disk < mStack[to].top().disk){
+            if (mStack[from].top().preTower != to){
+                node temp = mStack[from].top();
+                mStack[from].pop();
+                temp.preTower = from;
+                mStack[to].push(temp);
+                if ((to != 0) && !mStack[0].empty()){
+                    mStack[0].top().preTower = -1;
+                }
+                if ((to != 1) && !mStack[1].empty()){
+                    mStack[1].top().preTower = -1;
+                }
+                if ((to != 2) && !mStack[2].empty()){
+                    mStack[2].top().preTower = -1;
+                }
+                return true;
+            }
+		}
 	}
-	if ((to != 1) && !mStack[1].empty()){
-		mStack[1].top().preTower = -1;
+    else if (!mStack[from].empty() && mStack[to].empty() ){
+        if (mStack[from].top().preTower != to){
+            node temp = mStack[from].top();
+            mStack[from].pop();
+            temp.preTower = from;
+            mStack[to].push(temp);
+            if ((to != 0) && !mStack[0].empty()){
+                mStack[0].top().preTower = -1;
+            }
+            if ((to != 1) && !mStack[1].empty()){
+                mStack[1].top().preTower = -1;
+            }
+            if ((to != 2) && !mStack[2].empty()){
+                mStack[2].top().preTower = -1;
+            }
+            return true;
+        }
 	}
-	if ((to != 2) && !mStack[2].empty()){
-		mStack[2].top().preTower = -1;
-	}
+    return false;
 }
+
 bool tower::moveRight(){
-	if (!mStack[0].empty() && mStack[1].empty() ){
-		if (mStack[0].top().preTower != 1){
-			move(0, 1);
-			return true;
-		}
-	}
-	else if (!mStack[0].empty() && !mStack[1].empty()){
-		if (mStack[0].top().disk < mStack[1].top().disk){
-			if (mStack[0].top().preTower != 1){
-				move(0, 1);
-				return true;
-			}
-		}
-		else if (!mStack[1].empty() && mStack[2].empty()){
-			if (mStack[1].top().preTower != 2){
-				move(1, 2);
-				return true;
-			}
-		}
-		else if (!mStack[1].empty() && !mStack[2].empty()){
-			if (mStack[1].top().disk < mStack[2].top().disk){
-				if (mStack[1].top().preTower != 2){
-					move(1, 2);
-					return true;
-				}
-			}
-		}
-	}
-	else if (!mStack[1].empty() && mStack[2].empty()){
-		if (mStack[1].top().preTower != 2){
-			move(1, 2);
-			return true;
-		}
-	}
-	else if (!mStack[1].empty() && !mStack[2].empty()){
-		if (mStack[1].top().disk < mStack[2].top().disk){
-			if (mStack[1].top().preTower != 2){
-				move(1, 2);
-				return true;
-			}
-		}
-	}
-
-
-	return false;
+    if(move(0,1)){
+        return true;
+    }
+    else if(move(1,2)){
+        return true;
+    }
+    return false;
 }
 
 bool tower::moveLeft(){
-	if (!mStack[2].empty() && mStack[1].empty()){
-		if (mStack[2].top().preTower != 1){
-			move(2, 1);
-			return true;
-		}
-	}
-	else if (!mStack[1].empty() && !mStack[2].empty()){
-		if (mStack[2].top().disk < mStack[1].top().disk){
-			if (mStack[2].top().preTower != 1){
-				move(2, 1);
-				return true;
-			}
-		}
-		else if (!mStack[1].empty() && mStack[0].empty()){
-			if (mStack[1].top().preTower != 0){
-				move(1, 0);
-				return true;
-			}
-		}
-		else  if (!mStack[0].empty() && !mStack[1].empty()){
-			if (mStack[1].top().disk < mStack[0].top().disk){
-				if (mStack[1].top().preTower != 0){
-					move(1, 0);
-					return true;
-				}
-			}
-		}
-	}
-	else if (!mStack[1].empty() && mStack[0].empty()){
-		if (mStack[1].top().preTower != 0){
-			move(1, 0);
-			return true;
-		}
-	}
-	else  if (!mStack[0].empty() && !mStack[1].empty()){
-		if (mStack[1].top().disk < mStack[0].top().disk){
-			if (mStack[1].top().preTower != 0){
-				move(1, 0);
-				return true;
-			}
-		}
-	}
-	return false;
+    if(move(2,1)){
+        return true;
+    }
+    else if(move(1,0)){
+        return true;
+    }
+    return false;
 }
 
 void tower::printout(){
 	bool move = true;
 	while (move){
-		move = false;
-		while (moveRight())
-			move = true;
-		while (moveLeft())
-			move = true;
-		debug();
-	}
+        move = false;
+    while (moveRight())
+        move = true;
+	while (moveLeft())
+        move = true;
+    }
+    debug();
 }
 
 void tower::debug(){
