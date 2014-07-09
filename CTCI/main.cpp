@@ -7,13 +7,26 @@
 //
 
 #include <iostream>
-#include <stack>
-#include "3_4.h"
+#include "3_5.h"
 using namespace std;
 
 int main(int argc, const char * argv[])
 {
-    tower t(16);
-	t.printout();
+    myQueue q1;
+    for(int i=0;i<5;i++)
+        q1.enQueue(i);
+
+    for(int i=0;i<5;i++){
+        cout<<q1.first()<<endl;
+        q1.deQueue();
+    }
+
+    for(int i=0;i<5;i++)
+        q1.enQueue(i);
+    
+    for(int i=0;i<5;i++){
+        cout<<q1.first()<<endl;
+        q1.deQueue();
+    }
 }
 

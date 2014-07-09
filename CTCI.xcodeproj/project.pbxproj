@@ -29,6 +29,7 @@
 		B79516E0195EFDDA0033E79F /* 1_7.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B79516DF195EFDDA0033E79F /* 1_7.cpp */; };
 		B79516E5195EFE7B0033E79F /* 2_3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B79516E4195EFE7B0033E79F /* 2_3.cpp */; };
 		B7959262196C1D5000AE6B13 /* 3_4.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B7959260196C1D5000AE6B13 /* 3_4.cpp */; };
+		B7B39369196D69EA00C76116 /* 3_5.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B7B39367196D69EA00C76116 /* 3_5.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -72,6 +73,8 @@
 		B79516E4195EFE7B0033E79F /* 2_3.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 2_3.cpp; sourceTree = "<group>"; };
 		B7959260196C1D5000AE6B13 /* 3_4.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 3_4.cpp; sourceTree = "<group>"; };
 		B7959261196C1D5000AE6B13 /* 3_4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = 3_4.h; sourceTree = "<group>"; };
+		B7B39367196D69EA00C76116 /* 3_5.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 3_5.cpp; sourceTree = "<group>"; };
+		B7B39368196D69EA00C76116 /* 3_5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = 3_5.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +110,8 @@
 				B731419D1968E4B9005CF4E4 /* Part1 */,
 				B731419E1968E4CB005CF4E4 /* Part2 */,
 				B728F83C1959BB4400AA773A /* main.cpp */,
+				B7B39367196D69EA00C76116 /* 3_5.cpp */,
+				B7B39368196D69EA00C76116 /* 3_5.h */,
 				B7959260196C1D5000AE6B13 /* 3_4.cpp */,
 				B7959261196C1D5000AE6B13 /* 3_4.h */,
 				B728F83E1959BB4400AA773A /* CTCI.1 */,
@@ -208,6 +213,7 @@
 				B781C9AF1968E6D600698C52 /* 3_1.cpp in Sources */,
 				B73C9C7B19619124001C4F5F /* 2_4.cpp in Sources */,
 				B728F84A1959BB7F00AA773A /* 1_2.cpp in Sources */,
+				B7B39369196D69EA00C76116 /* 3_5.cpp in Sources */,
 				B728F83D1959BB4400AA773A /* main.cpp in Sources */,
 				B728F84C1959BB7F00AA773A /* 1_4.cpp in Sources */,
 				B79516E5195EFE7B0033E79F /* 2_3.cpp in Sources */,
