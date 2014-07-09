@@ -13,7 +13,7 @@ using namespace std;
 
 int main(int argc, const char * argv[])
 {
-    tower t(3);
+    tower t(16);
 	t.printout();
 }
 

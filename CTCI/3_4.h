@@ -22,7 +22,7 @@ public:
 private:
 	bool moveRight();
 	bool moveLeft();
-	void move(int from, int to);
+	bool move(int from, int to);
 
     std::stack<node> mStack[3];
     int mDisk;
