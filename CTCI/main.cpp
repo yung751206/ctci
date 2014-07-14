@@ -7,26 +7,22 @@
 //
 
 #include <iostream>
-#include "3_5.h"
+#include "3_6.h"
 using namespace std;
 
 int main(int argc, const char * argv[])
 {
-    myQueue q1;
-    for(int i=0;i<5;i++)
-        q1.enQueue(i);
+	sortStack s1;
+	s1.push(6);
+	s1.push(1);
+	s1.push(4);
+	s1.push(2);
+	s1.push(5);
+	s1.push(3);
+	for (int i = 0; i < 6; i++){
+		cout << s1.top() << endl;
+		s1.pop();
+	}
 
-    for(int i=0;i<5;i++){
-        cout<<q1.first()<<endl;
-        q1.deQueue();
-    }
-
-    for(int i=0;i<5;i++)
-        q1.enQueue(i);
-    
-    for(int i=0;i<5;i++){
-        cout<<q1.first()<<endl;
-        q1.deQueue();
-    }
 }
 
