@@ -37,12 +37,17 @@ void readFile::outputLastKLines(int k){
     string s;
     while(output){
         getline(output,s);
-        lines.push_back((s));
+        if(outputLines.size()==k+1){
+            outputLines.pop();
+            outputLines.push(s);
+        }
+        else{
+            outputLines.push(s);
+        }
     }
     for(int i=0;i<k;i++){
-        cout<<"test "<<lines[lines.size()-2-i]<<endl;
+        cout<<"test "<<outputLines.front()<<endl;;
+        outputLines.pop();
+        
     }
-    
-    
-    
 }

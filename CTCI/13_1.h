@@ -10,7 +10,7 @@
 #define __CTCI___3_1__
 
 #include <fstream>
-#include <vector>
+#include <queue>
 #include <string>
 
 
@@ -22,6 +22,7 @@ public:
 private:
     std::ifstream output;
     std::ofstream file;
-    std::vector<std::string> lines;
+    std::queue<std::string> outputLines;
+
 };
 #endif /* defined(__CTCI___3_1__) */
