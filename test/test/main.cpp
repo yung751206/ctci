@@ -2,6 +2,7 @@
 #include <fstream>
 #include <sstream>
 #include <vector>
+#include "File.h"
 
 using namespace std;
 struct PersonInfo{
@@ -11,5 +12,6 @@ struct PersonInfo{
 
 int main (int argc,char **argv)
 {
-    os<<"cout"<<endl;
+    wow wowClass;
+    cout<<wowClass.getA()<<endl;
 }

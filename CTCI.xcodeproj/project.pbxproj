@@ -31,6 +31,7 @@
 		B79516E0195EFDDA0033E79F /* 1_7.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B79516DF195EFDDA0033E79F /* 1_7.cpp */; };
 		B79516E5195EFE7B0033E79F /* 2_3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B79516E4195EFE7B0033E79F /* 2_3.cpp */; };
 		B7959262196C1D5000AE6B13 /* 3_4.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B7959260196C1D5000AE6B13 /* 3_4.cpp */; };
+		B79BE24D1979F11A000ED3E7 /* 13_1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B79BE24B1979F11A000ED3E7 /* 13_1.cpp */; };
 		B7B39369196D69EA00C76116 /* 3_5.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B7B39367196D69EA00C76116 /* 3_5.cpp */; };
 /* End PBXBuildFile section */
 
@@ -79,6 +80,8 @@
 		B79516E4195EFE7B0033E79F /* 2_3.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 2_3.cpp; sourceTree = "<group>"; };
 		B7959260196C1D5000AE6B13 /* 3_4.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 3_4.cpp; sourceTree = "<group>"; };
 		B7959261196C1D5000AE6B13 /* 3_4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = 3_4.h; sourceTree = "<group>"; };
+		B79BE24B1979F11A000ED3E7 /* 13_1.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 13_1.cpp; sourceTree = "<group>"; };
+		B79BE24C1979F11A000ED3E7 /* 13_1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = 13_1.h; sourceTree = "<group>"; };
 		B7B39367196D69EA00C76116 /* 3_5.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 3_5.cpp; sourceTree = "<group>"; };
 		B7B39368196D69EA00C76116 /* 3_5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = 3_5.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -113,24 +116,13 @@
 		B728F83B1959BB4400AA773A /* CTCI */ = {
 			isa = PBXGroup;
 			children = (
+				B7D398D11979F07400AE22BA /* Part3 */,
 				B731419D1968E4B9005CF4E4 /* Part1 */,
 				B731419E1968E4CB005CF4E4 /* Part2 */,
 				B728F83C1959BB4400AA773A /* main.cpp */,
-				B7B39367196D69EA00C76116 /* 3_5.cpp */,
-				B7B39368196D69EA00C76116 /* 3_5.h */,
-				B7959260196C1D5000AE6B13 /* 3_4.cpp */,
-				B7959261196C1D5000AE6B13 /* 3_4.h */,
+				B79BE24B1979F11A000ED3E7 /* 13_1.cpp */,
+				B79BE24C1979F11A000ED3E7 /* 13_1.h */,
 				B728F83E1959BB4400AA773A /* CTCI.1 */,
-				B781C9AD1968E6D600698C52 /* 3_1.cpp */,
-				B781C9AE1968E6D600698C52 /* 3_1.h */,
-				B77D7BE6197550DF00F4F7C0 /* 3_7.cpp */,
-				B77D7BE7197550DF00F4F7C0 /* 3_7.h */,
-				B77D7BE3197550CF00F4F7C0 /* 3_6.cpp */,
-				B77D7BE4197550CF00F4F7C0 /* 3_6.h */,
-				B70A33E9196ABB9C0048E0F4 /* 3_3.cpp */,
-				B70A33EA196ABB9C0048E0F4 /* 3_3.h */,
-				B781C9B01968F62200698C52 /* 3_2.cpp */,
-				B781C9B11968F62200698C52 /* 3_2.h */,
 			);
 			path = CTCI;
 			sourceTree = "<group>";
@@ -163,6 +155,27 @@
 				B73C9C7619619116001C4F5F /* 2_1.cpp */,
 			);
 			name = Part2;
+			sourceTree = "<group>";
+		};
+		B7D398D11979F07400AE22BA /* Part3 */ = {
+			isa = PBXGroup;
+			children = (
+				B781C9AD1968E6D600698C52 /* 3_1.cpp */,
+				B781C9AE1968E6D600698C52 /* 3_1.h */,
+				B77D7BE6197550DF00F4F7C0 /* 3_7.cpp */,
+				B77D7BE7197550DF00F4F7C0 /* 3_7.h */,
+				B77D7BE3197550CF00F4F7C0 /* 3_6.cpp */,
+				B77D7BE4197550CF00F4F7C0 /* 3_6.h */,
+				B70A33E9196ABB9C0048E0F4 /* 3_3.cpp */,
+				B70A33EA196ABB9C0048E0F4 /* 3_3.h */,
+				B781C9B01968F62200698C52 /* 3_2.cpp */,
+				B781C9B11968F62200698C52 /* 3_2.h */,
+				B7B39367196D69EA00C76116 /* 3_5.cpp */,
+				B7B39368196D69EA00C76116 /* 3_5.h */,
+				B7959260196C1D5000AE6B13 /* 3_4.cpp */,
+				B7959261196C1D5000AE6B13 /* 3_4.h */,
+			);
+			name = Part3;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -225,6 +238,7 @@
 				B728F84A1959BB7F00AA773A /* 1_2.cpp in Sources */,
 				B7B39369196D69EA00C76116 /* 3_5.cpp in Sources */,
 				B728F83D1959BB4400AA773A /* main.cpp in Sources */,
+				B79BE24D1979F11A000ED3E7 /* 13_1.cpp in Sources */,
 				B77D7BE8197550DF00F4F7C0 /* 3_7.cpp in Sources */,
 				B77D7BE5197550CF00F4F7C0 /* 3_6.cpp in Sources */,
 				B728F84C1959BB7F00AA773A /* 1_4.cpp in Sources */,
